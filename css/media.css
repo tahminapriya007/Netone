@@ -1,0 +1,799 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* header start  */
+  .menu ul li a {
+    padding: 0px 13px 9px !important;
+  }
+  /* header end  */
+
+  /* button start  */
+  .btn-sign {
+    margin-left: 10px;
+  }
+  .cm-btn {
+    border: 1px solid var(--sky);
+    color: var(--sky) !important;
+
+    height: 45px;
+    width: 120px;
+    transition: 0.5s;
+  }
+  .btn:hover {
+    color: white !important;
+    background-color: var(--sky);
+  }
+  /* button end  */
+
+  /* banner start  */
+
+  .banner-img {
+    margin: 0 0px 25px;
+    padding: 0 0;
+  }
+  .banner-text {
+    text-align: center;
+  }
+  .banner-h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-right: 0;
+  }
+  .banner-text p span {
+    margin-right: 0;
+  }
+  .banner-p2 {
+    line-height: 25px;
+    margin-right: 0;
+  }
+  .banner-btn {
+    margin-top: 50px !important;
+    height: 55px !important;
+    width: 230px !important;
+    border-radius: 10px !important;
+    background-color: var(--sky) !important;
+    color: white !important;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+    margin-left: 30px !important;
+  }
+
+  .banner-btn:hover {
+    font-weight: 700 !important;
+    border: 1px solid var(--sky) !important;
+    color: var(--sky) !important;
+    background-color: white !important;
+  }
+  .banner {
+    padding-bottom: 55px;
+  }
+  /* banner end  */
+
+  /* user section start  */
+  .user-item {
+    padding-bottom: 35px;
+  }
+  .user-img {
+    width: 43px;
+    height: 32px;
+
+    display: flex;
+  }
+  .user-text {
+    margin-left: 0;
+  }
+  .user-item ul li h2 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .user-item ul li span {
+    font-size: 10px;
+  }
+  /* user section end  */
+
+  /* Feature section start  */
+  .feature-text {
+    text-align: center;
+  }
+  .feature-img {
+    margin: 0;
+  }
+
+  .feature-text ul li h2 {
+    margin: 25px 0 0px;
+    font-size: 30px;
+    line-height: 45px;
+    padding-bottom: 15px;
+  }
+  .feature-text ul li p {
+    margin-right: 0;
+    line-height: 28px;
+  }
+  .feature {
+    padding-bottom: 30px;
+  }
+  /* Feature section end  */
+
+  /* purchase section start  */
+  .p-header p {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+  .purchase-plan {
+    margin-bottom: 0px;
+    width: 284px;
+    margin-left: 0px;
+    height: 800px;
+  }
+  .plan-img {
+    padding-left: 77px;
+  }
+  .planing {
+    padding-left: 95px;
+  }
+  .purchase-list {
+    padding-left: 50px;
+  }
+  .p-cost {
+    margin-bottom: 25px;
+    padding-left: 60px !important;
+  }
+  .btn-sign {
+    margin-left: 40px;
+  }
+  /* purchase section end  */
+  /* global section start  */
+  .g-text h2 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    padding: 0px 0px 0;
+    font-size: 32px;
+    line-height: 50px;
+  }
+  .g-text p {
+    margin: 10px 0 50px;
+    padding: 0 20px;
+  }
+  /* global section end  */
+
+  /* customer section start  */
+  .customer-text h2 {
+    margin: 15px 0px;
+    line-height: 40px;
+    font-size: 25px;
+  }
+  .customer-text p {
+    margin: 10px 5px 40px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .cus-review-text {
+    margin-left: 4px;
+  }
+  .cus-review-text h3 {
+    font-size: 13px;
+  }
+  .cus-review-text span {
+    font-size: 11px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .f-left {
+    margin-left: -25px;
+  }
+  .customer {
+    margin-bottom: 70px;
+  }
+  .col-lg-4 {
+    padding: 20px;
+  }
+  .cus-1 {
+    width: 276px;
+  }
+
+  /* customer dection end  */
+  /* submit section start  */
+  .form-cc {
+    margin-top: 22px;
+    width: 235px;
+  }
+  .submit-part {
+    width: 270px;
+    height: 190px;
+  }
+  .submit-para {
+    font-size: 16px;
+    padding-top: 67px;
+  }
+  .submit-btn {
+    margin-top: -128px !important;
+    margin-right: 91px !important;
+    width: 118px !important;
+    height: 33px !important;
+    position: relative;
+    left: 30%;
+    font-size: 13px;
+    margin-left: -15px !important;
+  }
+  /* submit section end  */
+
+  /* Footer Top Start */
+  .footer-top {
+    text-align: center;
+    padding: 55px 0 20px;
+  }
+  .ft-details {
+    margin-bottom: 0px;
+    padding-right: 0;
+  }
+  .ft-details p {
+    color: var(--gray);
+    line-height: 30px;
+    margin: 20px 0;
+  }
+  .ft-links {
+    margin-bottom: 35px;
+  }
+
+  .ft-img {
+    margin-top: 90px;
+  }
+
+  /* Footer Top  End */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header Section start  */
+  .menu ul li a {
+    padding: 0px 13px 9px !important;
+  }
+  /* header  Section end  */
+
+  /* button start  */
+  .btn-sign {
+    margin-left: 15px;
+  }
+  .cm-btn {
+    border: 1px solid var(--sky);
+    color: var(--sky) !important;
+  }
+  .btn:hover {
+    color: white !important;
+    background-color: var(--sky);
+  }
+  /* button end  */
+
+  /* banner start  */
+  .banner {
+    padding-bottom: 80px;
+  }
+  .banner-img {
+    margin: 0 30px 25px;
+  }
+  .banner-text {
+    text-align: center;
+  }
+  .banner-h1 {
+    font-size: 45px;
+    line-height: 65px;
+    margin-right: 50px;
+    margin-top: 5px;
+  }
+  .banner-text p span {
+    margin-right: 0;
+  }
+  .banner-p2 {
+    line-height: 30px;
+    margin-right: 70px;
+  }
+
+  .banner-btn {
+    margin-top: 50px !important;
+    height: 55px !important;
+    width: 230px !important;
+    border-radius: 10px !important;
+    background-color: var(--sky) !important;
+    color: white !important;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+    margin-left: 120px !important;
+  }
+
+  .banner-btn:hover {
+    font-weight: 700 !important;
+    border: 1px solid var(--sky) !important;
+    color: var(--sky) !important;
+    background-color: white !important;
+  }
+  /* banner end  */
+
+  /* user section start  */
+  .user-item {
+    padding-bottom: 35px;
+  }
+  /* user section end  */
+
+  /* Feature section start  */
+  .feature-text {
+    text-align: center;
+  }
+  .feature-img {
+    margin: 0 100px;
+  }
+
+  .feature-text ul li h2 {
+    margin: 25px 43px 0px;
+  }
+  .feature-text ul li p {
+    margin-right: 0;
+  }
+  .feature {
+    padding-bottom: 60px;
+  }
+  /* Feature section end  */
+
+  /* purchase section start  */
+  .p-header p {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+  .purchase-plan {
+    margin-bottom: 0px;
+    width: 300px;
+    margin-left: 105px;
+    height: 800px;
+  }
+  .plan-img {
+    padding-left: 77px;
+  }
+  .planing {
+    padding-left: 95px;
+  }
+  .purchase-list {
+    padding-left: 50px;
+  }
+  .p-cost {
+    margin-bottom: 25px;
+    padding-left: 60px !important;
+  }
+  .btn-sign {
+    margin-left: 40px;
+  }
+  /* purchase section end  */
+  /* global section start  */
+  .g-text h2 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    padding: 0px 62px 0;
+  }
+  .g-text p {
+    margin: 10px 0 80px;
+    padding: 0 104px;
+  }
+  /* global section end  */
+
+  /* customer section start  */
+  .customer-text h2 {
+    margin: 15px 28px;
+    line-height: 55px;
+  }
+  .customer-text p {
+    margin: 10px 5px 40px;
+  }
+  .cus-review-text {
+    margin-left: 4px;
+  }
+  .cus-review-text h3 {
+    font-size: 16px;
+  }
+  .cus-review-text span {
+    font-size: 15px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .f-left {
+    margin-left: -25px;
+  }
+  .customer {
+    margin-bottom: 70px;
+  }
+  .col-lg-4 {
+    padding: 20px;
+  }
+  .cus-1 {
+    width: 374px;
+  }
+
+  /* customer dection end  */
+  /* submit section start  */
+  .form-cc {
+    margin-top: 71px;
+    width: 320px;
+  }
+  .submit-part {
+    width: 600px;
+    height: 190px;
+  }
+  .submit-btn {
+    margin-top: -117px !important;
+    margin-right: 100px !important;
+    width: 160px !important;
+    height: 40px !important;
+    position: relative;
+    left: 30%;
+    margin-left: 180px !important;
+  }
+  /* submit section end  */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header start  */
+  .menu ul li a {
+    padding: 0px 13px 9px !important;
+  }
+  /* header end  */
+
+  /* button start  */
+  .btn-sign {
+    margin-left: 15px;
+  }
+  .cm-btn {
+    border: 1px solid var(--sky);
+    color: var(--sky) !important;
+  }
+  .btn:hover {
+    color: white !important;
+    background-color: var(--sky);
+  }
+  /* button end  */
+
+  /* banner start  */
+  .banner-img {
+    margin: 0 90px 25px;
+  }
+  .banner-text {
+    text-align: center;
+  }
+  .banner-h1 {
+    font-size: 45px;
+    line-height: 65px;
+    margin-right: 50px;
+  }
+  .banner-text p span {
+    margin-right: 0;
+  }
+  .banner-p2 {
+    line-height: 30px;
+    margin-right: 70px;
+  }
+
+  .banner-btn {
+    margin-top: 50px !important;
+    height: 55px !important;
+    width: 230px !important;
+    border-radius: 10px !important;
+    background-color: var(--sky) !important;
+    color: white !important;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+    margin-left: 170px;
+  }
+
+  .banner-btn:hover {
+    font-weight: 700 !important;
+    border: 1px solid var(--sky) !important;
+    color: var(--sky) !important;
+    background-color: white !important;
+  }
+  /* banner end  */
+  /* user section start  */
+  .user-item {
+    padding-bottom: 60px;
+  }
+  /* user section end  */
+
+  /* Feature section start  */
+  .feature-text {
+    text-align: center;
+  }
+  .feature-img {
+    margin: 0 135px;
+  }
+
+  .feature-text ul li h2 {
+    margin: 20px 68px 10px;
+  }
+  .feature-text ul li p {
+    margin-right: 0;
+  }
+  /* Feature section end  */
+
+  /* purchase section start  */
+  .purchase-plan {
+    margin-bottom: 0px;
+    width: 300px;
+    margin-left: 170px;
+    height: 800px;
+  }
+  .plan-img {
+    padding-left: 77px;
+  }
+  .planing {
+    padding-left: 95px;
+  }
+  .purchase-list {
+    padding-left: 50px;
+  }
+  .p-cost {
+    margin-bottom: 25px;
+    padding-left: 60px !important;
+  }
+  .btn-sign {
+    margin-left: 40px;
+  }
+  /* purchase section end  */
+  /* global section start  */
+  .g-text h2 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    padding: 0px 62px 0;
+  }
+  .g-text p {
+    margin: 10px 0 80px;
+    padding: 0 210px;
+  }
+  /* global section end  */
+
+  /* customer section start  */
+  .customer-text h2 {
+    margin: 0 80px;
+    line-height: 60px;
+  }
+  .customer-text p {
+    margin: 20px 95px 55px;
+  }
+  .cus-review-text {
+    margin-left: 4px;
+  }
+  .cus-review-text h3 {
+    font-size: 16px;
+  }
+  .cus-review-text span {
+    font-size: 15px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .f-left {
+    margin-left: -25px;
+  }
+  .customer {
+    margin-bottom: 70px;
+  }
+  .col-lg-4 {
+    padding: 20px;
+  }
+  .cus-1 {
+    width: 374px;
+  }
+
+  /* customer dection end  */
+  /* submit section start  */
+  .form-cc {
+    margin-top: 71px;
+    width: 320px;
+  }
+  .submit-part {
+    width: 600px;
+    height: 190px;
+  }
+  .submit-btn {
+    margin-top: -114px !important;
+    margin-right: 50px !important;
+
+    width: 160px !important;
+    height: 40px !important;
+    position: relative;
+    left: 30%;
+  }
+  /* submit section end  */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* header Section strat  */
+  .menu ul li a {
+    padding: 0 20px !important;
+  }
+  /* header Section  end  */
+
+  /* button start  */
+
+  .btn-sign {
+    margin-left: 10px;
+  }
+  .cm-btn {
+    height: 40px;
+    width: 130px;
+  }
+  /* button end  */
+
+  /* banner start  */
+  .banner-h1 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+  }
+
+  .banner-text p span {
+    margin-right: 0px;
+  }
+  .banner-btn {
+    height: 45px !important;
+    width: 220 px !important;
+  }
+  /* banner end  */
+  /* Feature section start  */
+  .feature-text ul li h2 {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    margin-right: 60px;
+  }
+  .feature-text ul li p {
+    margin-right: 0;
+  }
+  /* Feature section end  */
+
+  /* purchase section start  */
+  .purchase-plan {
+    margin-bottom: 35px;
+    width: 300px;
+  }
+  .plan-img {
+    padding-left: 77px;
+  }
+  .planing {
+    padding-left: 95px;
+  }
+  .purchase-list {
+    padding-left: 50px;
+  }
+  .p-cost {
+    margin-bottom: 25px;
+    padding-left: 60px !important;
+  }
+  .btn-sign {
+    margin-left: 40px;
+  }
+  /* purchase section end  */
+  /* global section start  */
+  .g-text h2 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    padding: 0px 284px 0;
+  }
+  .g-text p {
+    margin: 10px 0 100px;
+    padding: 0 300px;
+  }
+  /* global section end  */
+
+  /* customer section start  */
+  .customer-text h2 {
+    margin: 0 266px;
+    line-height: 60px;
+  }
+  .customer-text p {
+    margin: 20px 221px 55px;
+  }
+  .cus-review-text {
+    margin-left: 4px;
+  }
+  .cus-review-text h3 {
+    font-size: 14px;
+  }
+  .cus-review-text span {
+    font-size: 10px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .f-left {
+    margin-left: -25px;
+  }
+  .customer {
+    margin-bottom: 70px;
+  }
+  .col-lg-4 {
+    padding: 20px;
+  }
+  .cus-1 {
+    width: 280px;
+    height: 240px;
+  }
+
+  .submit-part {
+    width: 920px;
+  }
+  .submit-btn {
+    width: 176px !important;
+  }
+
+  /* customer dection end  */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* header strat  */
+  .menu ul li a {
+    font-size: 18px;
+  }
+  /* header end  */
+
+  /* Banner Start  */
+  .banner-text {
+    margin-top: 70px;
+  }
+  .banner-h1 {
+    font-size: 58px;
+    line-height: 75px;
+  }
+  .banner-p2 {
+    font-size: 18px;
+  }
+  .banner-text p span {
+    margin-right: 0;
+    /* margin-right: 156px; */
+  }
+
+  /* Banner End  */
+
+  /* Feature section start  */
+  .feature-text ul li h2 {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+  /* Feature section end  */
+
+  /* customer section start  */
+  .cus-1 {
+    width: 330px;
+    height: 230px;
+  }
+  .submit-part {
+    width: 965px;
+  }
+  /* customer dection end  */
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+  /* header strat  */
+  .menu ul li a {
+    font-size: 20px;
+  }
+  /* header end  */
+
+  /* Banner Start  */
+  .banner-text {
+    margin-top: 70px;
+  }
+  .banner-h1 {
+    font-size: 58px;
+    line-height: 75px;
+  }
+  .banner-p2 {
+    font-size: 18px;
+  }
+
+  /* Banner End  */
+}
